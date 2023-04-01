@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import Aboutp from '../public/assets/about.png'
+import Aboutp from '../public/assets/About.png'
 const About = () => {
   return (
     <div className='w-full md:h-screen p-2 flex items-center py-16'>
