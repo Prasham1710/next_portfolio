@@ -13,6 +13,7 @@ import Mongo from '../public/assets/mongo.png'
 import Cplus from '../public/assets/Cplusplus.png'
 import Clang from '../public/assets/clanguage.png'
 import AWS from '../public/assets/aws.png'
+import Next from '../public/assets/Next.png'
 
 const Skills = () => {
   return (
@@ -81,15 +82,27 @@ const Skills = () => {
               </div>
             </div>
             </div>
-             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-                <Image src={Python} 
+                <Image src={Next} 
                 alt="/" width='64px' height='64px' 
                 /> 
             </div>
             <div className='flex flex-col items-center justify-center'>
-                <h3>Python</h3>
+                <h3>Nextjs</h3>
+              </div>
+            </div>
+            </div>
+             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='m-auto'>
+                <Image src={Mongo} 
+                alt="/" width='64px' height='64px' 
+                /> 
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <h3>Mongo</h3>
               </div>
             </div>
             </div>
@@ -120,12 +133,12 @@ const Skills = () => {
              <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-                <Image src={Mongo} 
+                <Image src={Python} 
                 alt="/" width='64px' height='64px' 
                 /> 
             </div>
             <div className='flex flex-col items-center justify-center'>
-                <h3>Mongo</h3>
+                <h3>Python</h3>
               </div>
             </div>
             </div>
@@ -166,6 +179,19 @@ const Skills = () => {
               </div>
             </div>
             </div>
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='m-auto'>
+                <Image src={AWS} 
+                alt="/" width='64px' height='64px' 
+                /> 
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <h3>AWS</h3>
+              </div>
+            </div>
+            </div>
+            
         </div>
         </div>
 
