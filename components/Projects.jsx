@@ -42,14 +42,14 @@ const Projects = () => {
           <ProjectlItem
             title='BMI calculator'
             backgroundImg={Bmi}
-            projectUrl='/bmi'
+            projectUrl='/Bmi'
             tech='React JS'
 
           />
           <ProjectlItem
             title='Data Pack '
             backgroundImg={Data}
-            projectUrl='/data'
+            projectUrl='/Data'
             tech='React JS'
 
           
@@ -57,13 +57,13 @@ const Projects = () => {
           <ProjectlItem
             title='Travel Website'
             backgroundImg={Travel}
-            projectUrl='/travel'
+            projectUrl='/Travel'
             tech='React JS'
           />
           <ProjectlItem
             title='Chat app'
             backgroundImg={Chat}
-            projectUrl='/chat'
+            projectUrl='/Chat'
             tech='React JS'
 
           />
