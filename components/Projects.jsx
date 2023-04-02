@@ -22,34 +22,34 @@ const Projects = () => {
           <ProjectlItem
             title='Todo app'
             backgroundImg={Todo}
-            projectUrl='https://todoapp-gules-sigma.vercel.app/'
+            projectUrl='/Todo'
             tech='React JS'
           />
           <ProjectlItem
             title='Capture App'
             backgroundImg={Capture}
-            projectUrl='/crypto'
+            projectUrl='/Capture'
             tech='React JS'
 
           />
           <ProjectlItem
             title='Password Generator'
             backgroundImg={Password}
-            projectUrl='https://password-generator-beta-black.vercel.app/'
+            projectUrl='/Password'
             tech='React JS'
 
           />
           <ProjectlItem
             title='BMI calculator'
             backgroundImg={Bmi}
-            projectUrl='https://bmi-claculator.vercel.app/'
+            projectUrl='/bmi'
             tech='React JS'
 
           />
           <ProjectlItem
             title='Data Pack '
             backgroundImg={Data}
-            projectUrl='https://travel-website-pearl-six.vercel.app/'
+            projectUrl='/data'
             tech='React JS'
 
           
@@ -57,13 +57,13 @@ const Projects = () => {
           <ProjectlItem
             title='Travel Website'
             backgroundImg={Travel}
-            projectUrl='https://travel-website-pearl-six.vercel.app/'
+            projectUrl='/travel'
             tech='React JS'
           />
           <ProjectlItem
             title='Chat app'
             backgroundImg={Chat}
-            projectUrl='/'
+            projectUrl='/chat'
             tech='React JS'
 
           />
