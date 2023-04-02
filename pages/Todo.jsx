@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri';
-import Todol from '../public/assets/projects/todo.png'
+import Todol from '../public/assets/projects/Todo.png'
 import Link from 'next/link';
 const Todo = () => {
   return (
