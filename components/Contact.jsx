@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
-import Neo from '../public/assets/profilephoto.jpg'
+import Neo from '../public/assets/profilephoto.JPG'
 const Contact = () => {
   return (
     <div id ='contact' className='w-full lg:h-screen'>
