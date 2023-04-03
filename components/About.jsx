@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import Aboutp from '../public/assets/profilephoto..jpeg'
+import Aboutp from '../public/assets/about.jpeg'
 const About = () => {
   return (
     <div id ='about' className='w-full md:h-screen p-2 flex items-center py-16'>
@@ -11,8 +11,8 @@ const About = () => {
                 <p className='py-2 text-gray-600'> I am a WEB developer</p>
                 <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive front-end UI applications and website 
-            that connect with API’s and other backend technologies.
-             I’m
+            that connect with APIs and other backend technologies.
+             I am
             passionate about learning new technologies
             in building front-end applications using HTML, , Tailwind ,CSS, Javascript, and
             React, 

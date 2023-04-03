@@ -27,7 +27,6 @@ const Capture = () => {
                     This is a  full-stack CURD website  It built using React js,nodejs and mongo db database is used  In this app you add your photos in the form of post other can like them .Other than this post can be edited, and it can also be delted by the one eho have uploaded it
                 </p>
                <Link href= 'https://github.com/Prasham1710/capture_memo'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
-                
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

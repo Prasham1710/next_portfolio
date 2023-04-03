@@ -68,7 +68,6 @@ const Projects = () => {
 
           />
           
-          
            
           
         </div>

@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
-import Neo from '../public/assets/profilephoto.JPG'
+import Neo from '../public/assets/neo.jpeg'
 const Contact = () => {
   return (
     <div id ='contact' className='w-full lg:h-screen'>
@@ -19,7 +19,7 @@ const Contact = () => {
             <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
                 <div>
-                    <Image className='rounded-2xl hover:scale-105 h-[250px]  w-[250px] ease-in duration-300'
+                    <Image className='rounded-xl hover:scale-105 ease-in duration-300'
                     src={Neo}
                     alt='/'/>
                 </div>
@@ -32,11 +32,10 @@ const Contact = () => {
                  <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'>
-                      <Link href='https://www.linkedin.com/in/prasham-jain-03b204223/'><FaLinkedinIn/></Link></div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='https://github.com/Prasham1710'><FaGithub/></Link></div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href=''><AiOutlineMail/></Link></div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href=''><BsFillPersonLinesFill/></Link></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><FaLinkedinIn/></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><FaGithub/></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><AiOutlineMail/></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><BsFillPersonLinesFill/></div>
                 </div>
             </div>
             </div>
