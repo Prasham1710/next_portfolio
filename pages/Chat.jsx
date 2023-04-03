@@ -23,7 +23,8 @@ const Chat = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    This is a CURD app was built using React js and its hosted in vercel In this app you add your todos of  the day . Mark them completed on compleion and can be also deleted your todos are stored in it for long time as the app is using the  firebase database
+                    This is a Chat  CURD app was built using React js and firebase and its deployed in firebase
+
                 </p>
                <Link href= 'https://github.com/Prasham1710/todoapp'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
                 <button className='px-8 py-2 mt-4'>Demo</button>
@@ -48,11 +49,11 @@ const Chat = () => {
             </div>
             </div>
             <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
+            <p className='underline cursor-pointer'>Back</p>
+            </Link> 
         </div>
     </div>
   )
 }
 
-export default Chat
+export default Chat 

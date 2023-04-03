@@ -23,7 +23,7 @@ const Data = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    This is a CURD app was built using React js and its hosted in vercel In this app you add your todos of  the day . Mark them completed on compleion and can be also deleted your todos are stored in it for long time as the app is using the  firebase database
+                    This is frontend of data pack pack renewal website build using react and talwind
                 </p>
                <Link href= 'https://github.com/Prasham1710/todoapp'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
                 <button className='px-8 py-2 mt-4'>Demo</button>
@@ -41,9 +41,6 @@ const Data = () => {
                 <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
                 </p>
-                <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
             </div>
             </div>
             </div>

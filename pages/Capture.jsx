@@ -23,9 +23,9 @@ const Capture = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    This is a CURD app was built using React js and its hosted in vercel In this app you add your todos of  the day . Mark them completed on compleion and can be also deleted your todos are stored in it for long time as the app is using the  firebase database
+                    This is a  full-stack CURD website  It built using React js,nodejs and mongo db database is used  In this app you add your photos in the form of post other can like them .Other than this post can be edited, and it can also be delted by the one eho have uploaded it
                 </p>
-               <Link href= 'https://github.com/Prasham1710/todoapp'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
+               <Link href= 'https://github.com/Prasham1710/capture_memo'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
                 <button className='px-8 py-2 mt-4'>Demo</button>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -36,14 +36,26 @@ const Capture = () => {
                 <RiRadioButtonFill className='pr-1'/>React
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Tailwindcss
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
+                <RiRadioButtonFill className='pr-1' /> MongoDb
+                </p>
+                <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Nodejs
+                 </p>
+                <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Express js
+                </p>
+                <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Html5
+                </p>
+                <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' />Material UI
+                </p>
             </div>
             </div>
             </div>
