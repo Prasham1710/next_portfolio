@@ -68,13 +68,7 @@ const Projects = () => {
             tech='React JS'
 
           />
-           <ProjectlItem
-            title='Internship Portal'
-            backgroundImg={Intership}
-            projectUrl='/Intership'
-            tech='React JS'
-
-          />
+          
           
            
           
