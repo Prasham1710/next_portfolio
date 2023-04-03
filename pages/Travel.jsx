@@ -11,6 +11,7 @@ const Travel = () => {
        <Image
         className='absolute z-1'
         fill
+        alt='/'
          style={{objectFit:"cover"}}
         src={Travelw}/>
        <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -23,7 +24,7 @@ const Travel = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                    This is a frontend of beach hotel booking Website built using React js , Tailwind and it's hosted in vercel.This website is to book  hotels beachside.
+                    This is a frontend of beach hotel booking Website built using React js , Tailwind and it is hosted in vercel.This website is to book  hotels beachside.
                 </p>
                <Link href= 'https://github.com/Prasham1710/todoapp'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
                 <button className='px-8 py-2 mt-4'>Demo</button>
