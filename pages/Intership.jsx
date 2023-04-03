@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Intern from '../public/assets/projects/internship.png'
 import Link from 'next/link';
-const Internship = () => {
+const Intership = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -56,4 +56,4 @@ const Internship = () => {
   )
 }
 
-export default Internship
+export default Intership
