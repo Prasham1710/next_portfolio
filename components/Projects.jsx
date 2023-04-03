@@ -7,7 +7,6 @@ import Capture from '../public/assets/projects/Capture.png'
 import Chat from '../public/assets/projects/Chat_app.png'
 import Password from '../public/assets/projects/password.png'
 import Travel from '../public/assets/projects/Travel_website.png'
-import Intership from '../public/assets/projects/internship.png';
 import Data from '../public/assets/projects/data_pack.png'
 import ProjectlItem from './ProjectItem'
 
