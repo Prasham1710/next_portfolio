@@ -26,8 +26,8 @@ const Data = () => {
                 <p>
                     This is frontend of data pack pack renewal website build using react and talwind
                 </p>
-               <Link href= 'https://github.com/Prasham1710/todoapp'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
-                <button className='px-8 py-2 mt-4'>Demo</button>
+               <Link href= 'https://github.com/Prasham1710/data_pack'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
+                <Link  href='http://data-pack.vercel.app/'><button className='px-8 py-2 mt-4'>Demo</button></Link>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

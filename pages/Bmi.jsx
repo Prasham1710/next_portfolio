@@ -25,8 +25,8 @@ const Bmi = () => {
                 <p>
                     This website is made with  Reactjs having bmi calculator to calculate bmi of people using javascript 
                 </p>
-               <Link href= 'https://github.com/Prasham1710/todoapp'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
-                <button className='px-8 py-2 mt-4'>Demo</button>
+               <Link href= 'https://github.com/Prasham1710/bmi_claculator'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
+                <Link href= 'https://bmi-claculator.vercel.app/'><button className='px-8 py-2 mt-4'>Demo</button></Link>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>

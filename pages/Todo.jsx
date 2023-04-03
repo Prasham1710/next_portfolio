@@ -27,7 +27,7 @@ const Todo = () => {
                     This is a CURD app was built using React js and its hosted in vercel In this app you add your todos of  the day . Mark them completed on compleion and can be also deleted your todos are stored in it for long time as the app is using the  firebase database
                 </p>
                <Link href= 'https://github.com/Prasham1710/todoapp'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
-                <button className='px-8 py-2 mt-4'>Demo</button>
+                 <Link href='https://todoapp-gules-sigma.vercel.app/'><button className='px-8 py-2 mt-4'>Demo</button></Link>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
@@ -44,6 +44,9 @@ const Todo = () => {
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Firebase
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> HTML
               </p>
             </div>
             </div>

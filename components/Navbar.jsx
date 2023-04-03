@@ -19,7 +19,10 @@ const Navbar = () => {
        router.asPath === '/Todo' ||
        router.asPath === '/Chat' ||
        router.asPath === '/Capture' ||
-       router.asPath === '/twitch'
+       router.asPath === '/Data'||
+       router.asPath === '/Password'||
+       router.asPath === '/Travel'||
+       router.asPath === '/Bmi'
      ) {
        setNavBg('transparent');
        setLinkColor('#ecf0f3');
@@ -124,10 +127,11 @@ const Navbar = () => {
                 <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#5651e5]'>Lets connects+</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><FaLinkedinIn/></div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><FaGithub/></div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><AiOutlineMail/></div>
-                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><BsFillPersonLinesFill/></div>
+                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'>
+                      <Link href='https://www.linkedin.com/in/prasham-jain-03b204223/'><FaLinkedinIn/></Link></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='https://github.com/Prasham1710'><FaGithub/></Link></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='jainprasham17@gmail.com'><AiOutlineMail/></Link></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href=''><BsFillPersonLinesFill/></Link></div>
               </div>
               </div>
             </div>

@@ -26,8 +26,8 @@ const Password = () => {
                 <p>
                     This is a website which help to generate anonymous password as per the reqiurements and filter given below 
                 </p>
-               <Link href= 'https://github.com/Prasham1710/todoapp'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
-                <button className='px-8 py-2 mt-4'>Demo</button>
+               <Link href= 'https://github.com/Prasham1710/password_generator'><button className='px-8 py-2 mt-4 mr-8'>Code</button></Link> 
+                 <Link href='https://password-generator-beta-black.vercel.app/'><button className='px-8 py-2 mt-4'>Demo</button></Link>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
