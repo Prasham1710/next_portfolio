@@ -7,6 +7,7 @@ import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useRouter } from 'next/router';
 
+
 const Navbar = () => {
     const [nav,setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
@@ -22,7 +23,8 @@ const Navbar = () => {
        router.asPath === '/Data'||
        router.asPath === '/Password'||
        router.asPath === '/Travel'||
-       router.asPath === '/Bmi'
+       router.asPath === '/Bmi'||
+       router.asPath === '/Charts'
      ) {
        setNavBg('transparent');
        setLinkColor('#ecf0f3');
@@ -55,7 +57,6 @@ const Navbar = () => {
             width='95'
             height='40'
         /></Link>
-        
         <div>
           <ul style={{ color: `${linkColor}` }} className=' hidden md:flex'>
             <Link href='/'>
@@ -88,6 +89,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    
     <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70': ''}>
       <div className={
         nav

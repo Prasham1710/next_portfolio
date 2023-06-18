@@ -9,7 +9,7 @@ import Password from '../public/assets/projects/password.png'
 import Travel from '../public/assets/projects/Travel_website.png'
 import Data from '../public/assets/projects/data_pack.png'
 import ProjectlItem from './ProjectItem'
-
+import Expenses from '../public/assets/projects/Expense.png'
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
@@ -51,8 +51,6 @@ const Projects = () => {
             backgroundImg={Data}
             projectUrl='/Data'
             tech='React JS'
-
-          
           />
           <ProjectlItem
             title='Travel Website'
@@ -65,11 +63,13 @@ const Projects = () => {
             backgroundImg={Chat}
             projectUrl='/Chat'
             tech='React JS'
-
           />
-          
-           
-          
+          <ProjectlItem
+            title='Expense Tracker'
+            backgroundImg={Expenses}
+            projectUrl='/Expense'
+            tech='React JS'
+          />
         </div>
       </div>
     </div>
