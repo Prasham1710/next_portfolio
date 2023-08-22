@@ -8,7 +8,7 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'> About</p>
                 <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-600'> I am a WEB developer</p>
+                <p className='py-2 text-gray-600'> I am a Full stack WEB developer</p>
                 <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive front-end UI applications and website 
             that connect with APIs and other backend technologies.
@@ -18,7 +18,7 @@ const About = () => {
             React, 
           </p>
           <p className='py-2 text-gray-600'>
-            I started  learning web developement in 2022 by leanring front front end with react Now i started Leraning backend part of website with mongo DB and cloud base database like Firebase.
+            I am a full stack developer and learner working on lattest current web technologies like nextjs and working with mongo db and firebase datbase.
           </p>
          
             </div>
