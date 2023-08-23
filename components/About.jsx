@@ -10,12 +10,12 @@ const About = () => {
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'> I am a Full stack WEB developer</p>
                 <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications and website 
+            I specialize in building mobile responsive web applications and website 
             that connect with APIs and other backend technologies.
              I am
             passionate about learning new technologies
-            in building front-end applications using HTML, , Tailwind ,CSS, Javascript, and
-            React, 
+            in building full stack applications using HTML, , Tailwind ,CSS, Javascript, ,MongoDb, Firebase,
+            React, NextJs
           </p>
           <p className='py-2 text-gray-600'>
             I am a full stack developer and learner working on lattest current web technologies like nextjs and working with mongo db and firebase datbase.
