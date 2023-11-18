@@ -28,7 +28,7 @@ const Main = () => {
                 <Link href='https://github.com/Prasham1710'><FaGithub/></Link>
             </div>
              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail/>
+               <Link Link href='mailto:jainprasham17@gmail.com'><AiOutlineMail/></Link>
             </div>
             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                  <Link href='https://drive.google.com/file/d/1Nj74UHkkVR3Guv6QFnUC1Ps8Jg2kecfK/view?usp=sharing'><BsFillPersonLinesFill/></Link>

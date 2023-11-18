@@ -132,7 +132,7 @@ const Navbar = () => {
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'>
                       <Link href='https://www.linkedin.com/in/prasham-jain-03b204223/'><FaLinkedinIn/></Link></div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='https://github.com/Prasham1710'><FaGithub/></Link></div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='jainprasham17@gmail.com'><AiOutlineMail/></Link></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='mailto:jainprasham17@gmail.com'><AiOutlineMail/></Link></div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='https://drive.google.com/file/d/1X9ISDAtj6UOChGRuWzh9B8jGPP1TPsoJ/view?usp=drivesdk'><BsFillPersonLinesFill/></Link></div>
               </div>
               </div>

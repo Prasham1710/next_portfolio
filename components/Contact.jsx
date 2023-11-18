@@ -46,7 +46,7 @@ const Contact = () => {
                 <div className='flex items-center justify-between py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='https://www.linkedin.com/in/prasham-jain-03b204223/'><FaLinkedinIn/></Link></div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='https://github.com/Prasham1710'><FaGithub/></Link></div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><AiOutlineMail/></div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><Link href='mailto:jainprasham17@gmail.com'><AiOutlineMail/></Link></div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-250'><BsFillPersonLinesFill/></div>
                 </div>
             </div>

@@ -10,67 +10,70 @@ import Travel from '../public/assets/projects/Travel_website.png'
 import Data from '../public/assets/projects/data_pack.png'
 import ProjectlItem from './ProjectItem'
 import Expenses from '../public/assets/projects/Expense.png'
+import bookurvilla from '../public/assets/projects/airbnb.jpg'
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+    <div id="projects" className="w-full">
+      <div className="max-w-[1240px] mx-auto px-2 py-16">
+        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
-        <h2 className='py-4'> What I Built</h2>
-        <div className='grid md:grid-cols-2 gap-8'>
+        <h2 className="py-4"> What I Built</h2>
+        <div className="grid md:grid-cols-2 gap-8">
           <ProjectlItem
-            title='Expense Tracker'
+            title="Expense Tracker"
             backgroundImg={Expenses}
-            projectUrl='/Expense'
-            tech='React JS'
+            projectUrl="/Expense"
+            tech="React JS"
           />
           <ProjectlItem
-            title='Todo app'
+            title="Todo app"
             backgroundImg={Todo}
-            projectUrl='/Todo'
-            tech='React JS'
+            projectUrl="/Todo"
+            tech="React JS"
           />
           <ProjectlItem
-            title='Capture App'
+            title="Capture App"
             backgroundImg={Capture}
-            projectUrl='/Capture'
-            tech='React JS'
-
+            projectUrl="/Capture"
+            tech="React JS"
           />
           <ProjectlItem
-            title='Password Generator'
+            title="Password Generator"
             backgroundImg={Password}
-            projectUrl='/Password'
-            tech='React JS'
-
+            projectUrl="/Password"
+            tech="React JS"
           />
           <ProjectlItem
-            title='BMI calculator'
+            title="BMI calculator"
             backgroundImg={Bmi}
-            projectUrl='/Bmi'
-            tech='React JS'
-
+            projectUrl="/Bmi"
+            tech="React JS"
           />
           <ProjectlItem
-            title='Data Pack '
+            title="Data Pack "
             backgroundImg={Data}
-            projectUrl='/Data'
-            tech='React JS'
+            projectUrl="/Data"
+            tech="React JS"
           />
           <ProjectlItem
-            title='Travel Website'
+            title="Travel Website"
             backgroundImg={Travel}
-            projectUrl='/Travel'
-            tech='React JS'
+            projectUrl="/Travel"
+            tech="React JS"
           />
           <ProjectlItem
-            title='Chat app'
+            title="Chat app"
             backgroundImg={Chat}
-            projectUrl='/Chat'
-            tech='React JS'
+            projectUrl="/Chat"
+            tech="React JS"
           />
-          
+          <ProjectlItem
+            title="Chat app"
+            backgroundImg={bookurvilla}
+            projectUrl="/Chat"
+            tech="React JS"
+          />
         </div>
       </div>
     </div>
