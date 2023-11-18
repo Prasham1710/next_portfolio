@@ -69,9 +69,9 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectlItem
-            title="Chat app"
+            title="booking app "
             backgroundImg={bookurvilla}
-            projectUrl="/Chat"
+            projectUrl="/Bookvilla"
             tech="React JS"
           />
         </div>
