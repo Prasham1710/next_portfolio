@@ -1,21 +1,80 @@
-import React from 'react'
-import Image from 'next/image'
-import HTML from '../public/assets/html.png'
-import CSS from '../public/assets/css.png'
-import Javascript from '../public/assets/javascript.png'
-import Github from '../public/assets/github.png'
-import Firebase from '../public/assets/firebase.png'
-import Python from '../public/assets/Python.png'
-import Reactjs from '../public/assets/react.png'
-import Tailwind from '../public/assets/tailwind.png'
-import Node from '../public/assets/node.png'
-import Mongo from '../public/assets/mongo.png'
-import Cplus from '../public/assets/Cplusplus.png'
-import Clang from '../public/assets/clanguage.png'
-import Typescript from '../public/assets/ts.png'
-import Next from '../public/assets/Next.png'
+import Image from "next/image";
 
-const Skills = () => {
+function Skills() {
+  const skill = [
+    {
+      id: 1,
+      name: "Github",
+      image: "/assets/github.png",
+    },
+    {
+      id: 2,
+      name: "CSS",
+      image: "/assets/css.png",
+    },
+    {
+      id: 3,
+      name: "HTML",
+      image: "/assets/html.png",
+    },
+    {
+      id: 4,
+      name: "Javascript",
+      image: "/assets/javascript.png",
+    },
+    {
+      id: 5,
+      name: "Reactjs",
+      image: "/assets/react.png",
+    },
+    {
+      id: 6,
+      name: "Tailwind",
+      image: "/assets/tailwind.png",
+    },
+    {
+      id: 7,
+      name: "Nextjs",
+      image: "/assets/next.png",
+    },
+    {
+      id: 8,
+      name: "Node",
+      image: "/assets/node.png",
+    },
+    {
+      id: 9,
+      name: "python",
+      image: "/assets/Python.png",
+    },
+    {
+      id: 10,
+      name: "MongoDb",
+      image: "/assets/mongo.png",
+    },
+    {
+      id: 11,
+      name: "Firebase",
+      image: "/assets/firebase.png",
+    },
+ 
+    {
+      id: 12,
+      name: "Typescript",
+      image: "/assets/ts.png",
+    },
+    {
+      id: 13,
+      name: "Prisma",
+      image: "/assets/prisma.png",
+    },
+    {
+      id: 14,
+      name: "C++",
+      image: "/assets/Cplusplus.png",
+    },
+    
+  ];
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
@@ -24,152 +83,30 @@ const Skills = () => {
         </p>
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={HTML} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={CSS} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Javascript} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Javascript</h3>
+          {skill.map((skills) => (
+            <div
+              key={skills.id}
+              className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300"
+            >
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image
+                    src={skills.image}
+                    alt={skills.name}
+                    width={70}
+                    height={40}
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>{skills.name}</h3>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Typescript} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Typescript</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Reactjs} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>React</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Tailwind} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Next} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Nextjs</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Mongo} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Mongo</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Firebase} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Firebase</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Github} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Python} alt="/" width="64px" height="64px" />
-              </div>
-
-              <div className="flex flex-col items-center justify-center">
-                <h3>Python</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Node} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Node</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Cplus} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>C++</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Clang} alt="/" width="64px" height="64px" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>C</h3>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
   );
 }
 
-export default Skills
+export default Skills;

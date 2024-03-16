@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Expenses from '../public/assets/projects/Expense.png' 
 import Link from 'next/link';
-const Chart = () => {
+const Expense = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -50,7 +50,7 @@ const Chart = () => {
                 <RiRadioButtonFill className='pr-1' /> MongoDb
                 </p>
                  <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> exprress js
+                <RiRadioButtonFill className='pr-1' /> express js
                 </p>
                  <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> node js
@@ -69,4 +69,4 @@ const Chart = () => {
   )
 }
 
-export default Chart
+export default Expense

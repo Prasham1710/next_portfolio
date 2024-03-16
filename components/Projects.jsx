@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from 'next/image';
-import Link from 'next/link';
+import hope from "../public/assets/projects/hope.jpg";
 import Todo from '../public/assets/projects/Todo.png'
 import Bmi from '../public/assets/projects/BMI.png'
 import Capture from '../public/assets/projects/Capture.png'
@@ -21,6 +20,19 @@ const Projects = () => {
         <h2 className="py-4"> What I Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectlItem
+            title="Cancer Awareness Website"
+            backgroundImg={hope}
+            projectUrl="/Hopefullheals"
+            tech="Next JS"
+          />
+          <ProjectlItem
+            title="booking app "
+            backgroundImg={bookurvilla}
+            projectUrl="/Bookvilla"
+            tech="Next JS"
+          />
+
+          <ProjectlItem
             title="Expense Tracker"
             backgroundImg={Expenses}
             projectUrl="/Expense"
@@ -33,9 +45,9 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectlItem
-            title="Capture App"
-            backgroundImg={Capture}
-            projectUrl="/Capture"
+            title="Travel Website"
+            backgroundImg={Travel}
+            projectUrl="/Travel"
             tech="React JS"
           />
           <ProjectlItem
@@ -54,24 +66,6 @@ const Projects = () => {
             title="Data Pack "
             backgroundImg={Data}
             projectUrl="/Data"
-            tech="React JS"
-          />
-          <ProjectlItem
-            title="Travel Website"
-            backgroundImg={Travel}
-            projectUrl="/Travel"
-            tech="React JS"
-          />
-          <ProjectlItem
-            title="Chat app"
-            backgroundImg={Chat}
-            projectUrl="/Chat"
-            tech="React JS"
-          />
-          <ProjectlItem
-            title="booking app "
-            backgroundImg={bookurvilla}
-            projectUrl="/Bookvilla"
             tech="React JS"
           />
         </div>

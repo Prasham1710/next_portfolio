@@ -24,7 +24,10 @@ const Navbar = () => {
        router.asPath === '/Password'||
        router.asPath === '/Travel'||
        router.asPath === '/Bmi'||
-       router.asPath === '/Charts'
+       router.asPath === '/Expense'||
+       router.asPath === '/bookurvilla'||
+       router.asPath === '/hope'
+
      ) {
        setNavBg('transparent');
        setLinkColor('#ecf0f3');
@@ -85,7 +88,7 @@ const Navbar = () => {
                   Contact
                 </li>
               </Link>
-              <Link href="https://drive.google.com/file/d/1Nj74UHkkVR3Guv6QFnUC1Ps8Jg2kecfK/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1pGQvGYjytXcUFsbtaN0ZWdU03jSTbFzD/view?usp=sharing">
                 <li className="ml-10 text-sm uppercase hover:border-b">
                   Resume
                 </li>
@@ -123,9 +126,7 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="border-b border-gray-300 my-4">
-                <p className="w-[85%] md:w-[90%] py-4">
-                  Lets build the portfolio together jai jinendra
-                </p>
+                <p className="w-[85%] md:w-[90%] py-4">jai jinendra</p>
               </div>
             </div>
             <div>

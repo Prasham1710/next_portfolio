@@ -14,12 +14,10 @@ const About = () => {
             that connect with APIs and other backend technologies.
              I am
             passionate about learning new technologies
-            in building full stack applications using HTML, , Tailwind ,CSS, Javascript, ,MongoDb, Firebase,
+            in building full stack applications using HTML, , Tailwind ,CSS, Javascript, ,MongoDb,Prisma,
             React, NextJs
           </p>
-          <p className='py-2 text-gray-600'>
-            I am a full stack developer and learner working on lattest current web technologies like nextjs and working with mongo db and firebase datbase.
-          </p>
+          
          
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
