@@ -11,11 +11,10 @@ const About = () => {
                 <p className='py-2 text-gray-600'> I am a Full stack WEB developer</p>
                 <p className='py-2 text-gray-600'>
             I specialize in building mobile responsive web applications and website 
-            that connect with APIs and other backend technologies.
-             I am
-            passionate about learning new technologies
-            in building full stack applications using HTML, , Tailwind ,CSS, Javascript, ,MongoDb,Prisma,
-            React, NextJs
+            that connect with APIs and other backend technologies and also macine learning enthusiast.
+             I am passionate about learning new technologies
+            in building full stack applications using HTML, , Tailwind ,CSS, Javascript,Typescript ,MongoDb,Prisma,
+            React, NextJs,SQL, Python
           </p>
           
          
