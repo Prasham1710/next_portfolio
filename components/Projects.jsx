@@ -1,7 +1,7 @@
 import React from 'react'
 import hope from "../public/assets/projects/hope.jpg";
 import Todo from '../public/assets/projects/Todo.png'
-import Bmi from '../public/assets/projects/BMI.png'
+import Hos from '../public/assets/projects/Hos.jpg'
 import Capture from '../public/assets/projects/Capture.png'
 import Chat from '../public/assets/projects/Chat_app.png'
 import Password from '../public/assets/projects/password.png'
@@ -57,10 +57,10 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectlItem
-            title="BMI calculator"
-            backgroundImg={Bmi}
-            projectUrl="/Bmi"
-            tech="React JS"
+            title="Hospital Management"
+            backgroundImg={Hos}
+            projectUrl="/Hos"
+            tech="Python"
           />
           <ProjectlItem
             title="Data Pack "
