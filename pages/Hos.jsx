@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri';
-import Hos from '../public/assets/projects/Hos.JPG'
+import Hos from '../public/assets/projects/hos.JPG'
 import Link from 'next/link';
 const Hospital = () => {
   return (
